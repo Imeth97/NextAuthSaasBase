@@ -13,6 +13,14 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
+console.log(`
+  🌟✨🚀  \x1b[1m\x1b[36mCreating a new Next.js SaaS Boilerplate Project...\x1b[0m  🚀✨🌟
+  `);
+
+console.log(`
+  🔗📂  \x1b[1m\x1b[33mBased on: \x1b[4;32mhttps://github.com/Imeth97/boilerplater\x1b[0m  📂🔗
+  `);
+
 rl.question("What would you like to name your project? ", (projectName) => {
   // If no name was provided, exit gracefully or set a default name
   if (!projectName.trim()) {
