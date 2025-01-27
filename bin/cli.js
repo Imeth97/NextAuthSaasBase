@@ -47,15 +47,23 @@ rl.question("What would you like to name your project? ", (projectName) => {
       }
 
       console.log(`\nProject '${projectName}' is ready.`);
-      console.log('\nRun:');
+      console.log("\nRun:");
       console.log(`cd ${projectName}`);
-      console.log('npm install');
-      console.log('The run:')
-      console.log('npm run dev-all');
-      console.log('(Or the relevant command for your package manager e.g. yarn)');
-      console.log('To generate your .env file, start the database and run the development server.');
-      console.log('Once the server is running, view the about page for more information.');
-      console.log('Also make sure you\'ve read the README.md file for more in depth information.');
+      console.log("npm install");
+      console.log("The run:");
+      console.log("npm run dev-all");
+      console.log(
+        "(Or the relevant command for your package manager e.g. yarn)"
+      );
+      console.log(
+        "To generate your .env file, start the database and run the development server."
+      );
+      console.log(
+        "Once the server is running, view the about page for more information."
+      );
+      console.log(
+        "Also make sure you've read the README.md file for more in depth information."
+      );
       rl.close();
     });
   });
